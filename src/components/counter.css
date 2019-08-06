@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+.main {
+  height: 37px;
+}
+
+.main-heading-warning {
+  font-size: 20px;
+  color: white;
+  background: rgb(240, 217, 11);
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 18px;
+}
+.main-heading-primary {
+  font-size: 20px;
+  color: white;
+  background: blue;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 18px;
+}
+.Increment-btn {
+  border: none;
+  background-color: gray;
+  padding: 5px;
+  color: white;
+}
+.del-btn {
+  border: none;
+  background-color: red;
+  padding: 5px;
+  color: white;
+  margin-left: 4px;
+}
+.list {
+  margin: 10px 30px;
+}
+.navbar-heading {
+  background: red;
+  padding: 5px;
+}
+.reset-btn {
+  margin: 20px 0px;
+  border: none;
+  padding: 10px;
+  background: aqua;
+}
+.navbar-counter {
+  background: yellow;
+  padding: 7px;
+  margin-left: 5px;
+}
