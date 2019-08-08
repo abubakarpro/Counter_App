@@ -30,8 +30,15 @@ body {
 .Increment-btn {
   border: none;
   background-color: gray;
-  padding: 5px;
+  padding: 5px 12px;
   color: white;
+}
+.Decrement-btn {
+  border: none;
+  background-color: gray;
+  padding: 5px 12px;
+  color: white;
+  margin-left: 5px;
 }
 .del-btn {
   border: none;
