@@ -38,8 +38,8 @@ class App extends Component {
 
   handleIncrement = counterId => {
     // const counters = [...this.state.counters];
-    // const index = counters.indexOf(counter);
-    // counters[index] = { ...counter };
+    // const index = counters.indexOf(counterId);
+    // counters[index] = { ...counterId };
     // counters[index].value++;
     // this.setState({ counters });
     const newCounters = this.state.counters.map(c => {
@@ -53,8 +53,8 @@ class App extends Component {
 
   handleDecrement = counterId => {
     // const counters = [...this.state.counters];
-    // const index = counters.indexOf(counter);
-    // counters[index] = { ...counter };
+    // const index = counters.indexOf(counterId);
+    // counters[index] = { ...counterId };
     // counters[index].value--;
     // this.setState({ counters });
     const newCounters = this.state.counters.map(c => {
